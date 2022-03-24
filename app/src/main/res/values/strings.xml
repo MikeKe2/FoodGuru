@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">FoodGuru</string>
+    <string name="title_home">Home</string>
+    <string name="title_qr">Barcode scanner</string>
+    <string name="title_settings">Settings</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_re_type_password">Re-type Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be > 8 characters and must contain a number</string>
+    <string name="same_password">The passwords do not coincide</string>
+    <string name="wrong_email">You do not have inserted an email</string>
+    <string name="remember_password">Remember the password</string>
+    <string name="swipe_left_for_register">Swipe left for register</string>
+    <string name="swipe_right_for_login">Swipe right for login</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="product_description">Insert a description for the product</string>
+    <string name="product_name">Insert the name of the product</string>
+    <string name="insert_product">Insert product</string>
+    <string name="expire_time_tag" translatable="false">expireTime</string>
+    <string name="fail_img_error">Failed to load image</string>
+    <string name="no_name_error">Name field is mandatory</string>
+    <string name="no_barcode_error">Please insert a barcode</string>
+    <string name="expiration_date">Expiration date</string>
+    <string name="no_products_found">No products found with that barcode</string>
+    <string name="no_new_products_found">No new products found with that barcode</string>
+    <string name="no_internet_available_update">No internet available, please enter item after reconnecting</string>
+    <string name="take_a_photo">Take a photo</string>
+    <string name="upload_from_gallery">Upload from gallery</string>
+    <string name="notification_channel_expired_products">Notification channel for expired products</string>
+    <string name="notification_channel_old_products">Notification channel for old products</string>
+    <string name="swipe_left_for_entering_new_product">Swipe left for entering new product</string>
+    <string name="product_added_to_DB">Product successfully added to local DB</string>
+    <string name="setting_user">User</string>
+    <string name="settings_notification">Notification</string>
+    <string name="enable_expired_notifications">Enable expired notifications</string>
+    <string name="enable_older_notifications">Enable notifications for old products</string>
+    <string name="auto_login">auto login</string>
+    <string name="no_data_available">Uh oh, it seems that your pantry is empty, try to add new products using the barcode scanner!</string>
+</resources>

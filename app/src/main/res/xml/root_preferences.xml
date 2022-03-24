@@ -1,0 +1,43 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:icon="@drawable/ic_baseline_person_24"
+        app:title="@string/setting_user">
+        <EditTextPreference
+            android:selectable="false"
+            app:key="user"
+            app:summary="username"
+            app:title="User logged in as" />
+        <Preference
+            app:key="feedback"
+            app:title="Click me to logout"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:icon="@drawable/ic_notifications_black_24dp"
+        app:title="@string/settings_notification">
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:summaryOff="You will no longer receive notification"
+            android:summaryOn="You will receive notification"
+            app:key="OldNotificationsSwitch"
+            app:title="@string/enable_older_notifications" />
+
+        <EditTextPreference
+            android:defaultValue="7"
+            android:inputType="number"
+            app:key="EssentialNotificationTime"
+            app:title="Set threshold timer for older products" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:summaryOff="You will no longer receive notification"
+            android:summaryOn="You will receive notification"
+            app:key="ExpiredNotificationsSwitch"
+            app:title="@string/enable_expired_notifications" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

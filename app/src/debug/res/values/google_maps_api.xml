@@ -1,0 +1,8 @@
+<resources>
+    <!--
+    SHA-1 certificate fingerprint:
+    D2:72:0B:A6:6B:4E:81:BF:73:73:38:BF:E9:8B:F0:C1:F7:1C:F1:64
+    -->
+    <string name="preference_file_key" templateMergeStrategy="preserve" translatable="false">UsernameAndPassword</string>
+    <string name="session_key" templateMergeStrategy="preserve" translatable="false">sessionToken</string>
+</resources>
